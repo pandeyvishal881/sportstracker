@@ -1,4 +1,4 @@
-package com.sporty.sportstracker.model;
+package com.sporty.sportstracker.model.request;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

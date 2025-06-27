@@ -9,7 +9,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.sporty.sportstracker.controller.advice.GlobalExceptionHandler;
-import com.sporty.sportstracker.model.EventStatusRequest;
+import com.sporty.sportstracker.model.request.EventStatusRequest;
 import com.sporty.sportstracker.service.LiveEventService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -49,7 +49,7 @@ class EventStatusControllerTest {
     mockMvc
         .perform(post("/events/status").contentType(MediaType.APPLICATION_JSON).content(json))
         .andExpect(status().isOk())
-        .andExpect(content().string("Event status updated"));
+        .andExpect(jsonPath("$.message").value("Event status updated"));
 
     verify(liveEventService).updateEventStatus("match-1", true);
   }

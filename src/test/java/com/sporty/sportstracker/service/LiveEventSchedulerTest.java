@@ -3,7 +3,7 @@ package com.sporty.sportstracker.service;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.mockito.Mockito.*;
 
-import com.sporty.sportstracker.model.EventScoreResponse;
+import com.sporty.sportstracker.model.response.EventScoreResponse;
 import java.util.concurrent.ScheduledFuture;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

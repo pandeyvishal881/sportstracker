@@ -1,4 +1,4 @@
-package com.sporty.sportstracker.model;
+package com.sporty.sportstracker.model.response;
 
 import lombok.Data;
 

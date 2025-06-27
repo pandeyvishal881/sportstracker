@@ -4,7 +4,7 @@ import static org.mockito.ArgumentMatchers.*;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import com.sporty.sportstracker.model.EventScoreResponse;
+import com.sporty.sportstracker.model.response.EventScoreResponse;
 import java.util.concurrent.CompletableFuture;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

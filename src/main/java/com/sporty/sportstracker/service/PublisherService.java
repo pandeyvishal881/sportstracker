@@ -2,7 +2,7 @@ package com.sporty.sportstracker.service;
 
 import static com.sporty.sportstracker.constants.ApplicationConstants.*;
 
-import com.sporty.sportstracker.model.EventScoreResponse;
+import com.sporty.sportstracker.model.response.EventScoreResponse;
 import java.util.concurrent.CompletableFuture;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

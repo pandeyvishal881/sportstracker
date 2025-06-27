@@ -2,7 +2,7 @@ package com.sporty.sportstracker.service;
 
 import static com.sporty.sportstracker.constants.ApplicationConstants.*;
 
-import com.sporty.sportstracker.model.EventScoreResponse;
+import com.sporty.sportstracker.model.response.EventScoreResponse;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ScheduledFuture;
