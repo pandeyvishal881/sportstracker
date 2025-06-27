@@ -43,6 +43,10 @@ mvn spring-boot:run
 ```bash
 docker compose up -d
 ```
+### 🔁 check events in kafka
+```bash
+docker exec -it sports-tracker-kafka-1 kafka-console-consumer --bootstrap-server localhost:9092 --topic live-sports-events --from-beginning
+```
 
 Ensure your application connects to Kafka as defined in `application.yml`:
 
